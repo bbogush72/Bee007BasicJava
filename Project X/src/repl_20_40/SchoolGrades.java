@@ -1,4 +1,4 @@
-package repl_20_60;
+package repl_20_40;
 
 
 import java.util.Scanner;
