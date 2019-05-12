@@ -1,0 +1,85 @@
+Reproduce : as long as a tester found a bug, he/she will recreate a bug a couple times to make sure it is a valid bug or not.
+
+Status: fixed = "in QC"; ready for testers
+
+New : given by QA and all new defect is given as new
+
+Assigned: bug is posted by tester, to the development team, but not solved yet!
+
+=================================================================================================================================
+Defect Life Cycle Status: 
+
+Rejected: developers decide to make it reject it, if the defect is not valid.
+
+Not a bug: if the functionality of the application do not change, then status is assigned to "Not a Bug"
+
+Duplicate: if a defect repeated twice or defect is related to the same concept, the status changed to "duplicate"
+
+Deferred: if the bug is not part of a prime priority, then it's deferred to be fixed in next release
+
+Closed: testers cancel the bug, or close it.
+==================================================================================================================================
+
+
+
+QA =verification, ensuring the quality of process.
+
+QC = validation, ensuring that the product meets client expectation.
+
+POS manager should be able to create new products.
+
+Severity is the degree of impact caused by a Defect  on development or operation in a component being testing.
+
+QA engineer == Tester; determines the severity level of the defect.
+
+====Defect Severity Level===================================================
+
+Critical: a complete shut-down.
+
+Major: highly severe defect, it collapses the system. Certain system parts remains functional.
+
+Medium: System is a functional; but this type defect causes unwanted behavior.
+
+Minor: It doesn't cause any major break-down.
+
+======================================================
+
+Priority of defect: Developers or Product Owner decide on the priority of defect fix
+
+Priority Levels :
+High===> The defect must be solved asap since system cannot operate without this fix.
+Medium===> During the normal course of development activities, the defect should be resolved.
+Low====> It's a very minimal fix, and this can be fixed when more serious defects are fixed.
+
+Medium and high priorities should be fixed in a timely manner.
+
+
+=============Examples===================
+
+==>Minor defect but high priority that is: Company name, logo
+
+===>Critical defect and high priority that is: login issue
+
+===> Major bug and high priority: When user search an item, page freeze
+
+summary: password should not accept minus value
+
+summary: password should not accept less than 8 characters
+
+==================================================================================================================================
+1- Interview question: What do you do if you find a bug? Bug life cycle:
+
+Answer 1: You try to recreate the bug and repeat the test a couple times
+
+2- Interview question: if you find a bug, whom you need to assign it?
+
+Answer 2: Developers or development teams=
+
+3-Interview question: What if you cannot reproduce the bug?
+
+Answer 3: I will try to take a video, if not I will send out an email to all my team about the issue and let them keep an eye on the problem.
+
+
+
+
+

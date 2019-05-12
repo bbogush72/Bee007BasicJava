@@ -1,0 +1,100 @@
+
+===>	.length; means instance variable in arrays
+
+===>    System.out.println(Arrays.deepToString(STRObject)); // printing multi dim array items
+
+
+===> 	int[] nums [] = new int [2] []; // a way to create two dim array
+
+
+methods that we know so far : ========================================================
+
+===>    Method is grouping things together and putting things in smaller peaces
+		Such as make a payment, Register, Add Contact, Add new Item,search for item..
+		
+		
+===> 	main method : special method that starts 
+		===============================================================================
+		
+===>	Scanner methods
+		next()
+		nextX()...
+
+===> 	String class methods ==> str.length(), str.subStrinf(0,1),
+===============================================================
+===>    Array class methods
+		Arrays.toString(ArrObject)
+		Arrays.sort(ArrObject)
+===============================================================	
+	
+===> 	method observed:
+
+===============================================================
+
+		1. Method without value
+		@@Some methods take only action without returning/generating a new value that can be stored
+		
+		For example; 
+		
+		Arrays.sort(arr);
+===============================================================		
+		2. Metod with a return value
+		@@Some methods take action and return a value
+		For example; str.length();
+===============================================================
+		3. Method that does not take external data
+===> 	str.length();
+		str.toUpperCase();
+		str.toLowerCase();
+		str.trim();
+		scanObject.next();
+===============================================================
+===> 	
+		4. Method that take external data when called
+			str.charAt(10);
+			Arrays.sort(arr);
+			str.indexOf("flower");
+			str.subString(1,3);
+			Arrays.copyOfRanfe(arr, 1, 4);
+================================================================			
+
+===> 	5. Some methods need an object and we can call using that 
+
+
+		str.charAt(10);
+		scanobject.next();
+		strObject.charAt(10);
+		String.charAt(10) WRONG !!
+		scanobject.next() ; 	
+		
+=================================================================
+		6. Some methods does not need object to be called
+		
+		Arrays.sort(arr) ; 
+		Arrays.equals(arr1,arr2);
+=================================================================			
+===> 
+===> 
+===> 
+===> 
+===> 
+===> 
+
+===> 
+===> 
+===> 
+===> 
+===> 
+===> 
+===> 
+===> 
+
+===> 
+===> 
+===> 
+===> 
+
+===> 
+===> 
+===> 
+	

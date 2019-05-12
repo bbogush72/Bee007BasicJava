@@ -1,0 +1,265 @@
+Framework
+
+main responsibility of product owner
+backlog, analyze user story prioritize all user stories in backlog, 
+accept the output, responsibility of date and end points
+
+Scrum master 
+manage meting, helping dev team, communicate and remove impediment, facilitates 
+
+development team
+dev, testers and business analysts
+
+Scrum events
+
+sprint planning meeting lasts about 2 hrs or less
+
+daily stand up meeting; what done yesterday, what you do today. what thing impedes your ability to do work
+
+sprint retrospective meeting, what went well, what did not go well, how we improve?
+
+sprint review meeting; end of the sprint
+presentation or demo to stake holders to show them the result of work
+
+Product Backlog; reprioritized by product owner, at start of each sprint
+how  Po prioritize depends on client requests.
+
+===> Epic means "big user story"
+-A label tagged to a large story
+
+===>User story, short simple descriptions of a feature by the person who wants it that way
+
+===>Epic; big sketchy while User stories small and specific = detailed
+
+===>Epic example can be broken down to multiple user stories;
+for example;
+
+"As a frequent customer, I want to book flights customized to my schedule and I save time" ==>Epic this is
+Epic can be down into these; user stories;
+- I can book a trip using miles to save money
+-I want to request upgrade to be more comfortable
+
+===>Sprint backlog is set of stories with solid definitions, 
+and team has agreed to complete them in current sprint
+==>Development team responsible for Sprint Backlog
+Question: Who prioritize product backlogs ? prioritize by product owner
+
+===>Product backlog represents the list of ideas ordered Product owner 
+then team work on these as user stories
+
+===>How do you know how much time you have left in a project?
+Assuming 8 hrs a day allocated to do the tasks is not realistic,
+working less than 6 hrs to estimate but don't believe it!
+we cannot estimate to be realistic
+
+use relative estimation
+
+===>What is relative estimation
+-used in product backlog
+-compare and evaluate one story to another
+-Allows you to select a predictable volume of work to be done in a sprint
+based on capacity based planning
+Capacity, individuals work hours;
+
+Estimation with story points and ideal days, 
+
+===>Capacity: each person 1 day, 10 days in 2week sprint
+team capacity: 5 person ==> 50 days
+
+===>Story point; measure the size of stories
+-amount of effort required
+- complexity
+-doubt
+
+===> Story point size is based on these mostly; 
+
+Effort -- Complexity -- Doubt
+
+example; same effort different size; complexity and doubt
+
+as a testers we need more steps to do a task; effort can be bigger there
+
+===>Examples of Story points;
+-As a Web site Visitor I can create an account so that I can use the Website. (2point) 
+-As a User I can search other user so that I can add to my list of friends. (8point)
+-As a User I can pay for my subscription using a credit card so that I can use the site. (21point)
+
+==Some question answers; more on Story points
+point scale given by testers and developers in own perspective;
+
+who create test data, sometimes testers, developers, depends
+
+range for points 1 to 10 or 13
+if it is more than 10 then it is broken down to user stories/split
+
+-when we give estimation for user stories, we give one or two point higher, so there's time to finish.
+
+- I usually never give 1 point even if it's a simple task to be done in hours. 
+- Give two to make sure work can be done; 
+
+-- points usually refer to days, never refers to hours!
+
+- when hired observe the rules on scales, it's better not to ask.
+
+give the points and at what step? should be before the sprint during sprint planning
+
+==^^== most easiest user story = 2-3 points.
+==^^== medium user story = 5 -8 or 4-5 points
+==^^== complicated user story = 13 point or 6-8 points / days?
+
+-if time was not met, discuss with product owner to add time/points
+
+
+==> Grooming meeting: we give points for each user story
+==> sprint planning  prioritize and give a point for each user story
+
+
+===>Relative estimates
+- are abstract/summary representations of effort with complexity, size and more;
+- Scales as such Fibonacci , Linear scales, T-shirt sizes(not as common) 
+- usually in range 1 to 10;
+
+===>ideal days
+- no interruptions, everything you need is available.
+- pick 1 point roughly equal 1 day
+- Agree with team, of my one pointer in terms of effort, complexity and doubt
+- Compare new stories to it.
+- Use the  same scale in the team
+
+
+===>Advantages of ideal days
+-save time.
+-estimate in the beginning
+-save 
+
+
+===> Advantages of Story points
+
+==>Advantages of Story Points
+ Pure Measure of size and complexity 
+ Independent of the estimator 
+  Typically faster 
+  Easier to work with 
+  Studies show we are better at relative estimating 
+  
+===^=^==>> Planning poker; pointing system or days system
+-interactive way to estimate time/steps
+Product owner reads a story and members select cards and turn over
+
+===^=^==>>Release is made of multiple sprint, iterations; ===> regression before deployment/release
+minor regression after each sprint, major regression is after 6 sprints
+
+3 month we need to prepare for major regression
+How big is the release? How many sprints you do to release -deploy product!
+2 weeks = 6 sprint, we do big release( major regression done before we deploy to production )
+depends on companies too;
+1 year - 4 times release
+1 year - 2 times release
+		  
+		  Sprints contain stories, fixed amount of time
+		  
+		  Velocity is the number of story points in the box == sprint backlog
+		  or measure of how much work a team can do in a given time
+
+Example on the terminology; Estimation using ideal days;
+ideal day estimation==> 1 day == 1 point; 2 week sprint: 10 work days
+say 5 testers ; each tester capacity 10 points -2points(lunch, meeting etc)= 8 work days
+capacity for 5 equals 5*8=40 points
+==^^==
+each sprint backlog user stories should be more than 40 points
+velocity equal to capacity = 40points by given time a team can finish
+
+==^^==>> in general; spring backlog(box)responsible parties: testers and developers;
+we will have 10 to 12 user stories.
+
+==^^==>> 1 user story as tester perspective 8 points==> developers 3 points 
+because developing may be faster compared to testing; consider test cases and starting from scratch
+
+===^=^==>> Definition of ready (DOR)
+-focus on stories if they have; title , description, meets Invest criteria, 
+-Acceptance Criteria meets Mars
+
+
+===^=^==>>Invest Criteria
+- I - independent ==> does not depend on other stories
+- N - negotiable ==>conversation starter; never talk about how or end result!
+- V - Valuable
+- E - Estimate able
+- S - Small
+- T - Testable
+
+===^=^==>> Mars Criteria
+M - Measurable - Clearly specify what the team needs to do to achieve the objective 
+A - Attainable - Should be able to achieve the objective within the teams 
+R - Relevant - Should be speciﬁc to the value being delivered 
+S - Specific - States the intended outcome as simply, and concisely as possible
+
+===^=^==>>Definition of Done (DOD)
+-peer review complete
+-code documented
+-testing completed; all tests pass, no issues, updates and evidence logged
+-story documented in Jira, all required field entered and linked to a feature and story
+-Approved by product owner
+
+===^=^==>>all in good times, make use of what you may need. 
+Please send me by dm on slack if you have any suggestions and/or feedback. After all, we will prevail to the future :)
+  
+  
+  Kahoot answers;
+  
+product manager is not a scrum role
+SM, PO and Team are all scrum role
+
+each iteration /sprint is 2 give or take  but not 8
+
+Product owner prioritize backlog stories.
+
+Agile gives more values to the client: Scrum is under Agile so we know
+
+User story simplifies the requirement for dev team, for testers and developers
+
+how many sprint can you have in a project: calculated based on the project time box
+
+Can PO makes changes to the requirement during the sprint: yes changes are welcome during development; 
+after all, it's up to the client right, if client changes so requirement changes :)
+
+Who accepts the user story in scrum team: Product owners
+
+Who makes decision on what and when to release the application to the end user: Product owners
+
+My computer won't work who do I talk to get it fixed: Scrum Master
+
+In scrum dev team, everyone shares the same responsibilities when it comes to development: YES
+
+When a scrum team cannot complete the task: whole team is responsible
+
+Who joins sprint planning meeting : everyone in scrum team; PO SM tester, 
+
+What is one rule you follow when you consider sprint to be completed: when reached to "Definition of Done" DOD
+
+When estimating the complexity of story, what one way to represent it: use point system to represent complexity
+
+Sprint review meeting to see all new functionalities to client
+
+Sprint retrospective meeting conducted between  the : Scrum team==> SM PO and Dev team
+
+in sprint retrospective what questions we look at: what to do differently? what did not work well? What worked well
+
+When does a sprint begin: immediately after the conclusion of previous sprint
+
+is it required to deploy the current sprint developed functionalities at the end of the sprint : no
+
+When does team do sprint demo? : At the end of the sprint
+
+Can a developer write automation: yes developer can write automation scripts
+
+
+backlog contains more stories in product backlog
+
+three key words for a good user story:  As a, I want to, So I can
+
+
+
+
+
+

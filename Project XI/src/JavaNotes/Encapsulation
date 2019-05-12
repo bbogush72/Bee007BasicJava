@@ -1,0 +1,195 @@
+Encapsulatior and other notes
+
+===^_^===>>Class it's a blueprint.
+
+instance variables: variables that were created on the class level.
+local variable: variable that is inside a method. Thus, it doesn't exists out of method.
+
+
+instance variables or fields:
+stands for defining properies| atributes| states of object.
+
+How we can access instance fields?
+
+Inside a same class any instance can access these variables.
+Outside: create an object of this class in order to access instance variables.
+Computer mac = new Computer();
+(mac.OS = "", mac.type)
+
+instance methods: 
+we need them in order to define behavior of object
+also we need methods in order to manipulate with instance variables
+so how to access them?
+Inside a same class: any instance method can call any other instance method
+
+Outside a class: we need to create an object in order to call instance methods
+
+//our custom class doesn't have a main method
+//and we are not expecting to have main method in this class
+
+//POJO API Testing 
+
+//static methods
+
+if we remove static keyword from the main method
+===^_^===>> Static ; belongs to class
+--->> Static means shared, anyone using static members is using same methods/variables.
+--->> static String test = "Static variable";
+--->>any type from array class methods are also static
+
+
+===^_^===>> How to access variables?
+--->> using instance variables, methods. We need object, that is instance member
+--->> we use class name to access==> ClassName.methodName();
+
+
+
+
+====================================================================
+
+===^_^===>>public String getName() {
+    return name;
+  }
+
+  public int getAge() {
+    return age;
+  }
+
+  public long getSsn() {
+    return ssn;
+  }
+
+  public int getBatchNumber() {
+    return batchNumber;
+  }
+
+  public String getSpecialty() {
+    return specialty;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public void setAge(int age) {
+    this.age = age;
+  }
+
+  public void setSsn(long ssn) {
+    this.ssn = ssn;
+  }
+
+  public void setBatchNumber(int batchNumber) {
+    this.batchNumber = batchNumber;
+  }
+
+  public void setSpecialty(String specialty) {
+    this.specialty = specialty;
+  }
+
+  @Override
+  public String toString() {
+    return "name: " + getName() + "\nage: " + getAge() + "\nSSN: " + getSsn() + "\nbatch number: "
+        + getBatchNumber() + "\nspecialty: " + getSpecialty();
+  }
+}
+--->>
+--->>
+
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+
+===^_^===>>
+--->>
+--->>
+

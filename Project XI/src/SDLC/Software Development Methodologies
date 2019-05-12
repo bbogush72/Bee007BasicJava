@@ -1,0 +1,214 @@
+Software Development Methodologies
+
+1- Plan based software engineering produce large amount of documents for sustainable projects 
+<WaterFall>traditional approach to project management that is hardware oriented model; steadily downwards
+- You cannot move to next phase. Must finish a current phase.
+- Each phase got to be verified and validated.
+- Each phase depends on documents of previous stage
+- Emphasize planning before action
+- Recommend a top-down perspective
+
+1.A- When to use Waterfall model?
+==============================
+===> Requirements are very clear and fixed
+===> Product definition is stable
+====> Technology is well understood.
+===>Project is short, a small that is
+====> Company has experience about similar projects
+
+1.B- Advantage of Waterfall
+========================
+1- Easy to understand and easy to use
+2- Provides structure, tasks remain stable
+3- Milestones are clear, start and end points are set. Easy to measure the progress
+4- Good for management reduces the number of problematic issues
+
+1.C- Disadvantages of Waterfall
+==========================
+1- It's a time consuming projects can delay to project start
+2- Low flexibility makes it hard to make changes, costs are high
+3- One big integration at the end stage
+4- Little opportunity for customer to preview the system. It's a big risk.
+What if customer doesn't like it, no way to go back to make changes as said.
+
+1.D- Problems that tags along with Waterfall method;
+================================================
+-costly and time consuming that is
+- does not meet user requirements
+- Testing is at the very end of development
+- work or be gone type; done as is 
+
+1.E- Conclusion on Waterfall Method;
+===============================
+
+If project requirement is very clear and stable where customer needs can be clearly identified,
+at an early stage.
+===============================================================================================
+
+2- Agile-Based software engineering sacrifices documentation for earlier release dates and more
+adaptability to changing requirements <Scrum> or <Kanban>
+
+===> Agile is a mindset;
+
+2.A- How is a Product Management that is like;
+How the customer explained it? ====> How the project Lead understood it?>
+How the engineer designed it? =====> How the business analyst describes it?>
+What operations installed? =====> How the customer was billed? What marketing advertised?>
+What the customer really needed?
+
+====> Agile means responding to changes. Respond and improve to customer and stake holder feedback.
+====> Agile is a framework of values and principles to manage teams and projects.
+====> Agile is an alternative approach that embrace changes.
+====> Agile framework where people work together as one team not apart in stages
+====> Agile framework is where more human communication and interaction.
+====> Agile framework where shorter development cycles and frequent releases
+====> Agile framework where there is visibility of progress
+====> Agile framework where there is transparency of process.
+
+2.A- Agile - 4 Values
+
+<Individual and Interactions =====> Over processed and tools
+<Working software =================> Over comprehensive documentation
+<Customer collaboration============> Over contract negotiation
+<Responding to Change==============> Over following a plan
+
+2.B- Agile - 12 Principles
+- Satisfy the customer requirement
+- Welcome changing requirement
+- Deliver working software frequently
+- Collaborate daily
+- Motivate Individual
+- Face to face conversation
+- Measure of the progress via working product
+- Promote sustainable development
+- Continues attention to technical excellence
+- Simplicity is essential
+- Self Organize team
+- Regularly reflect on continuous improvement
+
+
+
+2.B.1- Sprint retrospective meeting: dev, BA, DBA, PO, testers and SM=Scrum Master
+	   
+	   Questions;
+	   1- What went well?
+	   2- What doesn't go well?
+	   3- What needs to improve?
+	   
+
+2.C- a- What is a major difference between agile and waterfall?
+		Answer a: Agile framework contains multiple iterations unlike waterfall method(one and final iteration)
+	
+	 b- Why organizations implement agile?
+	 	Answer b: 70% or more companies use some type of Agile methodology. Agile projects are successful.
+	 	
+2.D- 20 times differences between Agile VS. Waterfall 
+		1a- Agile framework contains multiple iterations 
+		1b- Waterfall method contain one and final iteration.
+		
+		2a- Agile framework contain interactions among values
+		2b- Waterfall method has no interaction among and in between stages.
+		
+		3a- Agile looks at the customer requirement and try to satisfy the requirements.
+		3b- Waterfall does not get customer requirement, even if it gets, it's costly to make changes
+		
+		4a- Agile is not a steady downfall, there are continuous interaction among the principles
+		Waterfall is a steady downfall, and a result is whether a go or perish.
+		
+		5a- Agile responds to change and welcomes, while supplies frequent working projects.
+		5b- Waterfall does not respond well to customer requirement if it was done wrong, it is done for.
+		
+		6a- Agile is a dynamic approach to project management.
+		6b- Waterfall is a static and rigid, end product is long decided, takes a long time.
+		
+		7a- Agile delivers sustain-able development. Sprint; deadlines, time lines are met.
+		7b- Waterfall is not sustain-able. If it fails at some point, it's gotten rid for.
+		
+		8a- Agile framework where team communicate and collaborate.
+		8b- Waterfall method where teams and tasks are separate 
+		
+		9a- Agile is where project is broken down into different sprints (deadlines)
+		9b- Waterfall is a set of predetermined phases.
+		
+		10a- Agile projects known that they are flexible.
+		10b- Waterfall is a structured and rigid steps make this methodology, not flexible
+		
+		11a- Agile project consists of multiple different projects
+		11b- Waterfall is a single project.
+		
+		12a- Agile is where test plan reviewed after each sprint(deadline)
+		12b- Waterfall does not really review test phase if not at the end.
+		
+		13a- Agile project where requirements and expectations change and usual that is.
+		13b- Waterfall project does not have many changes in the steps and require and major integration at the end.
+		
+		14a- Agile is a problem solving nature.
+		14b- Waterfall is not a problem solving nature nor it develops a well software. 
+		
+		15a- Agile releases projects frequently.
+		15b- Waterfall release in big time, with a high cost.
+		
+		16a- Agile is a recent approach from 1990s; user acceptance occur at end of every sprint
+		16b- Waterfall is derived from defense industry during WWII, it is old, user acceptance done at the end.
+		
+		17a- Agile is not much established process
+		17b- Waterfall is well established for some type projects
+		
+		18a- Agile is not so predictable, 
+		18b- Waterfall relies on the predictability
+		
+		19a- Agile adapts to change, low risk because values customer feedback
+		19b- Waterfall cannot adapt to change, high risk because long cycles required
+		
+		20a- Agile results improved quality due to continuous testing
+		20b- Waterfall learn and deliver at the end, may not be as much improved.
+		
+		21a- Waterfall plan all in the beginning
+		21b- Agile plans as the project goes.
+		
+		22a- Agile delivers plans frequently
+		22b- Waterfall delivers at the end.
+		
+		23a- Agile is built at every sprint
+		23b- Waterfall is built in advance
+		
+		24a- Agile emphasizes on the regular delivery of the working products
+		24b- Waterfall emphasizes on the delivery of the whole product
+		
+		25a- Agile smart goal focus on near future accuracy
+		25b- Waterfall smart goal is to focus on predicting the future.
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+MultiDimentional Arrays
+
+Declare array by int ducks [] [] ; or int [] [] ducks;
+
+Multi dimentions = check it out
+=================================
+int [] [] DuckFarm;
+
+int [] [] [] DuckTown;
+
+
+Let's go to 2 dimentional array;
+
+
+one way to create Duck Farm array
+
+int DuckFarm [] [] = new int [2][];
+
+second way 
+int[][] data1 ={ {12,5,4},{23,113,32} }
+int[][] data2 ={ {6,15,14},{20,3,88} }
+

@@ -1,0 +1,16 @@
+TakeAways day 7 SDLC
+
+User story: simplified description of the requirement. It describes the type of user, what they want and why, template.
+
+Requirement: As a <role>, I want <features>so that <reason>
+
+Example: As a user, I should be able to make a reservation on Book it application so that I can reserve any room for my team. 
+
+Acceptance criteria : it refers predefined requirements that must be met in order to mark a user story complete.
+
+Acceptance Criteria examples:=============================
+==>Verify that only the team lead can make a reservation
+===>Verify user can only make one room reservation.
+====>
+	
+===>	A user story is a natural language description of a feature. It's usually accompanied by acceptance criteria.

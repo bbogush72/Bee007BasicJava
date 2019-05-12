@@ -1,0 +1,111 @@
+
+
+
+1- What testing methodology do you prefer?
+==========================================
+I would prefer to use black and grey box testing since they are applicable to Systems and Acceptance testing which are performed by testers.
+I'd like to note that grey box test is a combination of black and white box testings. Know that grey box source code is partially known. 
+Grey box is very useful in integration testing.
+Black box testing looks at the functionality of the application.
+White box testing contains many steps where we check components of the application 
+such as source code, statements
+
+As a tester, I prefer both testing methods. 
+That is because since both black box and white box testing approach have their own advantages and disadvantages. 
+Black box testing approach enables testers to externally test the system on the basis of specified requirement and specification and 
+does not provide the scope of testing the internal structure of the system, whereas white box testing verify and 
+validates the software quality through testing of its internal structure and working. 
+Therefore, depends on team and project specification we can perform either one.
+
+
+2- What are the tasks involved in Test Design phase?===>first paragraph by the teacher
+======================================================================================
+Test design phase also called Test development phase which is a 3rd phase of STLC, 
+in this phase mostly testers are involved to analyzing requirement, design test cases , peer review each others test cases 
+and if environment is ready prepare test data . 
+
+First of all,  test planning should be done.
+ let me start by saying we must identify test data and create traceability  matrix.
+1- Develop test case, peer review and possibly write test scripts.
+2- Writing requirements, Integration of software, program testing, review the source codes.
+
+
+
+3- What are the responsibilities of Test engineers/QA testers
+=============================================================First paragraph==>teacher
+Analyze requirement and update if needed.
+Based on requirement design test cases with different scenarios and peer review each others test cases. Always mention scenarios, design or such strong words. 
+Prepare test data and execute them if failed, log the bug and keep tracking the bug is fixed or not. Make sure all bugs should be closed end of sprint(before deadline)
+During the project I also involve different types of testing such as system testing smoke testing regression testing and functional testing
+Agile==> I attend all scrum meeting  
+Automation: Framework, design framework: I involve designing framework, perform API testing, back end testing
+
+ It is important to know requirement specification and identify and design test cases. I'd like to underline that
+ reading and writing all the requirement documents are very essential. On the other hand,
+ We Develop test cases and prioritize testing activities. It is sort of deciding how to test it.
+ Based on the the requirement documents we execute all the test case and report defects. When we do
+ report, we decide the severity level of the test. Rest is up to the developers or product owner
+ whom decide on the priority of defect fix.
+ Carry out regression testing every time when changes are made to the code to fix defects.
+ =================================================================================================================Day 7 below
+ 
+4- Can you describe how you report the bug ?
+=============================================
+ I think reporting a bug is essential to keep applications in check because there can always be bugs. However, I should obviously check whether 
+ the very same problem was reported. Next, I'd try to see if this bug is caused by computer software issue. There, I try to reproduce the problem.
+ If I still find the bug persistent, then I do the next steps. I should clearly state what the bug is. 
+ Clear and concise reporting makes developers job easier. This action will limit back and forth communication to clarify the problem. 
+ Obviously saves time. I also think being concise should include one problem at a time. When a bug is being reported, 
+ I should include necessary documentation and related supporting data such as web site. 
+ Lastly, I think there is a certain format that is followed at every work place. I then follow the certain format to submit a bug.
+ I always should check back with the progress of the submission. Follow-ups are essential part of bug life cycle.
+
+	Until I close the bug report, I can say that I have to keep checking on the progression of the defect fix.
+	However, if I cannot convince the developer, then the least I can to is to keep checking the status of defect. 
+
+===========================================
+5- What would you do if the defect you reported could not be reproduced by the development team?
+================================================================================================
+First, let me say that a reproduced bug is a very important part of our jobs. That is the sort of proof of the bug that we report.
+I think I determine the level of the severity? level. Try to take video and picture. Keep looking for solutions to the non reproducible defect, contact all my team members.
+I'd just follow up and keep tracking the bug and report to make sure it is done eventually.I would try to take a video and picture of the bug as a proof. 
+
+
+
+
+==================================================================================================================
+6- How will you resolve a conflict between developer and tester where tester wants the defect to be fixed, while developer does not consider it to be a defect?
+	
+	I think I follow a positive approach as a sign of effective collaboration. 
+	I'd communicate face-to-face and by email to keep myself in the loop of the progress on this defect.
+	I look for solutions. I know that developers and product owners decide on the priority
+	level such as high, medium and low. 
+	As testers we only determine severity? level such as minor, major and critical. My first solution is a proof of a major or critical defect.
+	If I can reproduce the defect, then I can try once again to convince the developer about this defect. evidence that contains different scenarios.
+	With the correct proof and reproducible bug report and videos, pictures are evidence of the defect.
+	I think I can convince the developer. 
+	We should schedule a meeting with dev team,  project managers, BA and possible SM. Result of the meeting will determine what I should do.
+	
+	If the bug is not critical sort, then it is probably going to be fixed in the next release or so and it may be the reason
+	why the developer disagrees on that. It wouldn't be too hard to find out about it. 
+	
+
+
+
+7- an integer equal five, and another integer seven, how would you swap without using temp variable?
+====================================================================================================
+==>x=x+y     x=x-y        y=x-y
+
+
+8- how to change char array to a String?
+
+
+9- What is the quickest way to create a List ?
+List<Integer> list = Arrays.asList(3,5,6,7,5,4,3);
+
+10- What is the limitations of using List?
+You cannot add or remove, but you can update
+
+11- Why we shoud should store password variables in char array variables but not string arrays?
+
+

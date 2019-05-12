@@ -1,0 +1,246 @@
+Agile Development;
+==================
+==Scrum is like a time box, a sprint;
+==Scrum is Agile process;
+==Focus on delivering the highest business;
+==With a short amount of time;
+== Every 2-4 weeks, see the working product.
+
+==^^==
+
+==Scrum operates fast and repeatedly;
+==Inspection on working product every 2-4 weeks
+==The business sets the goals
+==Team self organize and determine highest quality the best way 
+
+==^=^==
+
+Every 2-4 weeks everyone can see the working product
+Then decide to release or postpone in another sprint
+
+
+==^=^==Scrum Framework;
+Everything start at product backlog; like a big box, gather
+everything to be developed
+such as idea of the customer; all functionalities here;
+
+==Sprint planning is next; where backlog broken down
+==Sprint backlog; small part of backlogs decided in the planning meeting
+
+==Scrum team: testing features
+
+==Next; Sprint review;
+Start another sprint to fill the increment box.
+Every single sprint not release product
+3-4 months, after 6 sprints
+==Increment
+
+==^=^==
+before product released, regression testing done.
+then return to new sprint
+
+==^=^== Sequential vs Overlapping(Agile Scrum)
+
+Scrum teams do little of everything always.
+or
+sequential one thing at a time
+
+==^=^==Parts of Scrum framework
+roles: 
+
+product owner=internal
+Scrum master =internal
+tester  = internal scrum
+developer = internal scrum
+
+===^^=== External parts of projects
+
+business owner = external scrum
+Stakeholder = external scrum
+SME = subject matter expert = external scrum
+they are not involved in the internal part
+
+ceremonies
+
+artifacts
+
+==^=^==huh! did not review ceremonies and artifacts as of yet!
+
+
+
+==^=^==Scrum team characteristics
+Self organize team
+Product progress in series of a month long Sprint
+Requirement are gathered as items in product backlog
+No specific engineer practices prescribed, depends on the team
+Use a generative rules to create an agile environment for delivery
+Agile process that is after all
+
+
+==^=^== Product Owner
+== defines features of the product
+== decide on the release date
+== is responsible for the backlog and maximize the product(ROI)
+== prioritize the features based on market value
+== adjust features and priority every iteration as needed
+==accept or reject work results;
+
+==^=^==Scrum Master(SM)
+you have access to laptop, tools provided by SM;
+if you cannot access, you cannot start working;
+SM help facilitate this type of issues.
+SM is not technical person but SM will find the easiest way;
+solve your impediments, access issues.
+SM do meetings;
+product owner cannot be  SM;
+
+
+SM;
+Responsible for the Scrum process;
+Removed impediment;
+Facilitates scrum events;
+Facilitates communication;
+
+
+==^=^==Development team (not developers!!!);
+Who work on project can be in dev team;
+The team creates the product;
+product owner and scrum master cannot be in dev team;
+
+
+==^=^==Business Owner BO;
+Set up framework for Scrum team with organization;
+provides assistance and resources;
+higher level then product owner;
+not every company may have BO;
+
+sometimes BO works with SM to remove impediments;
+lead Stake-holder;
+
+
+==^=^==Stake-holder;
+==is who invested in the project;
+==see the value of production at every sprint;
+==
+
+
+==^=^==Sprint;
+
+==Sprint is one time box; progress in series of sprints
+==in this time box; iteration of development life cycle;
+
+==product is designed, coded and tested during the sprint;
+==typical duration 2-4 weeks;
+
+==it can be 1 week if the team is fast and/or environment great
+==it can be 3 weeks too, depends
+==
+
+
+==^=^== Sprint Planning
+
+==Sprint planning followed by sprint and daily stand up meetings
+==there is retrospective meeting and  review meeting which
+decides the end of sprint
+
+
+=======Sprint planning meeting================================
+Sprint goal where analyze and evaluate backlog products
+Select a sprint goal
+
+Decide how to achieve sprint goal
+create a sprint backlog(tasks) items like user stories/features
+Estimate sprint backlog in hours
+
+product owner work with the team and negotiate and finalize 
+the definition of completed story
+so where stories for sprint are established here;
+sprint goal is agreed here;
+ready to start sprint
+
+==^=^==no changes during a sprint, if sprint started;=========
+do not make changes in the sprint, 
+we can change after the sprint
+
+======================================================
+capacity and velocity are the terms 
+that tester or another determine their doable tasks
+======================================================
+
+
+
+==^=^==Daily Scrum / Stand Up meeting
+
+==not for problem solving;
+==the entire team is there; including SM, PO and team members
+==a sidebar conversation is taken offline, 
+	it follows the daily meeting and include team members
+	regarding the topic at hand;
+	
+	Are we meeting the deadline? type meeting;
+	
+	if you say let's talk offline; 
+	then you refer to meeting after daily scrum meeting;
+
+==^=^== Everyone answers 3 question
+
+make sure everyone working on a task;
+== what did you do yesterday?
+== what will you do today?
+== What impediments are standing in you way?
+
+
+==^=^== Sprint review meeting;
+==team demonstrates accomplished tasks
+== like a demo of new features
+== stakeholders see the demo^^ ^^ ^ ^ ^ ^ ^^ 
+== PO, SM, Dev Team and SME who build the product
+== product owner may present, or developers or even testers
+==ScrumMaster facilitates any dialogue;
+==Scrum team has a rare opportunity with face to face with stakeholders
+==can learn hoe to receive feedback,
+
+==^=^== Sprint Retrospective Meeting;
+== Learn good things in trials and repeat them, and improve on;
+== The entire team including ScrumMaster and Product Owner joins this meeting;
+==This meeting done after every sprint;
+
+While we work on sprint 2, there can be retrospective meeting;
+for the previous meeting.
+
+
+==^=^== Questions discussed in Retrospective meeting;
+== What went well?
+== What did not go well?
+== What could be improved in the next sprint?
+
+==^=^== 3 Amigo meeting;
+==3 Amigo are BA, testers and developers get together;
+==informal meeting;
+==talk about user story and acceptance criteria;
+==functionality == developer's thing
+
+
+I had this much stamina X10 left to record more notes but here we are;
+ended here; hope this helps. All in good times, with prayers and patience.
+==^=^==1
+==^=^==2
+==^=^==3
+==^=^==4
+==^=^==5
+==^=^==6
+==^=^==7
+==^=^==8
+==^=^==9
+==^=^==0
+
+
+
+
+
+
+
+
+
+
+

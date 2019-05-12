@@ -1,0 +1,96 @@
+heap --> object memory
+stack --> primitive and methods known as static memory
+
+
+
+
+===^_^===>>>1- How many data types?
+
+Primitive and object data types
+
+
+===^_^===>>>2- primitive; default values?
+byte short, int and long ==> 0
+String ===> null
+float ===> 0.0
+char ===> empty space
+boolean ===> false
+
+
+
+===^_^===>>>3-String is a lot like primitive 
+although it is a class and is an object(the variable given to it)
+===> You can assign values to a string just like you assign it to primitive.
+===> when there is new keyword, that is the object being made.
+
+
+
+===^_^===>>>4- primitive data types don't have behavior(method).
+
+
+===^_^===>>>5- Object types have behavior
+
+
+===^_^===>>>6- ide integrated development environment, jdk java dev. kit.
+
+
+===^_^===>>>7- int nums [] [] = new int [2][]; Arrays are fixed in size.
+
+
+===^_^===>>>8- int numbers [rows][columns] ={ {0,1}, {2,3} };
+
+
+===^_^===>>> alt shift r refactoring
+
+
+===^_^===>>> if final keyword is written, there cannot be method overloading
+
+
+
+===^_^===>>>
+
+
+
+===^_^===>>>
+
+
+
+
+===^_^===>>>
+
+
+
+===^_^===>>>
+
+
+
+===^_^===>>>
+
+
+
+
+===^_^===>>>
+
+
+
+===^_^===>>>
+
+
+
+===^_^===>>>
+
+
+
+===^_^===>>>
+
+
+===^_^===>>>
+
+
+
+
+
+
+
+
+

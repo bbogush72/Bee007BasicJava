@@ -1,0 +1,129 @@
+java method
+
+
+==> Method that need Object when being called (strObj, scan, name)
+String strObj = “Java";
+int charCount = strObj.length();
+System.out.println( charCount );
+
+
+=====> Method that does not need Object when being called
+int[] nums = {1,5,3,4} ;
+Arrays.sort(nums);
+String part = Arrays.toString(nums);
+
+=====>Method that does not take external data when being called // see empty round brackets
+String strObj = “Java";
+int charCount = strObj.length();
+System.out.println( charCount );
+Scanner scan = new Scanner(System.in);
+String name = scan.next();
+int num = scan.nextInt();
+
+======>Method that accept external data when being called // see value 0 and 1,3
+String strObj = “Java";
+int char1index = strObj.charAt(0);
+System.out.println( charCount );
+String part = name.subStr(1,3);
+
+======>Method that return value when being called // see charcount, name or num
+String strObj = “Java";
+int charCount = strObj.length();
+System.out.println( charCount );
+Scanner scan = new Scanner(System.in);
+String name = scan.next();
+int num = scan.nextInt();
+
+
+
+======>return keyword is used to return a value out of method and it’s
+                                mandatory to return value of that type
+
+public static int add(int n1,int n2) {
+ int sum = n1+n2;
+ return sum ; 
+ 
+Access modifier ====> public
+
+Return Type
+
+No object needed to call  =====> static
+Method Name=====> add
+
+Method parameters=====> int n1, int n2
+
+
+===^=^==>> // return; where can we use it?
+-method with  a return type to return a value
+
+- it can be used to get out of any method; 
+including method with return type or void method
+
+- once the return keyword is reached, method stop executing
+
+Example;  this snippet works, 
+		  if you remove if condition then it is unreachable, will not compile
+		  
+		int x=20;
+		System.out.println("abc");
+		if(x>10)
+		return;
+		
+		System.out.println("the end");
+
+===^=^==>> break ==> loop + switch
+		   return==> to return value or terminate method execution
+
+
+System.exit(0); will shut down jvm= entire application
+
+===^=^==>>varArgs -- used to create a method
+					-that take variable numbers of same type when being called
+Example:
+public static void addManyNumbers(int... manyNums){}	
+... represents varArgs, use ... after method parameter data type
+	
+	*_* you don't need to type it like addManyNumbers(new int[] {1,2,3}		
+	*_* it's doable but why do that while you can just type int... manyNums
+					
+
+
+===^=^==>>public static void printNames(String ...myFavoritePets) {
+		//names will be like String [], that can be treated like arrays
+-can print this myFavoritePets[0]; // or re assign something else
+		
+
+
+===^=^==>>varArg is represented in method using;
+		-->method parameters--> can only for that, not anywhere else
+		-->calling a method that has varArg;
+			==>we directly pass variable number of arguments
+			what if more parameters? check the example;
+Example: public static void doSamething(String name, int... nums){
+			System.out.println("Do the same thing; study study "); }
+			
+			How do you call it? ==> doSamething("magic charm", 1,2,3,4,5,6,7,8,8,9,9);
+
+
+===^=^==>> if there is multiple parameter, varArg should be last one
+		   multiple varArg cannot be added, one varArg for one method
+public static void doSomethingElse(int... nums, String name)==> cannot compile
+this cannot compile ==> doSomethingElse(1,2,3, "magic charm")
+this cannot compile ==> doSomethingElse(
+
+
+===^=^==>>a method that takes varArg as a parameter can accept
+		  an array object as an argument; not so common but possible
+		
+^ ^ == > >a method that takes array as parameter can not accept a varArg
+       as an argument
+
+===^=^==>>public static void main(String[] args) {  }
+(String[] args) ==>
+
+===^=^==>>
+
+===^=^==>>
+
+
+
