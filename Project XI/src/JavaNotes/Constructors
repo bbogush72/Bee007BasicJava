@@ -1,0 +1,121 @@
+Constructors
+
+===^_^===> getter, a method for getting the value from the field
+---> and the name is recommended as getFieldName(); format
+---> and there must be a return 
+
+===^_^===> setter a method for settin the value of a field
+---> name is as setFieldName(dataType, fieldType)
+---> There is no return type
+
+===^_^===> 'this' keyword
+---> is used to address the current object/instance
+---> this keyword is reference type,
+private String name;
+public void setName(String name1) {
+		this.name = name1;
+	}
+
+===^_^===> Constructor; a special method that being called 
+						whenever an object is created
+---> when you see a 'new' keyword, it must call a constructor
+---> it has the same name as the class name
+---> it has no return type
+
+argument = parameter;
+no-arg constructor
+
+===^_^===> A constructor provided by the compiler, is a default constructor
+---> default constructor has no parameters since we did not create one.
+---> 
+
+===^_^===> two identifier of constructor
+---> should not have a return type
+---> it must have the same name as class name
+
+===^_^===> Not a constructor;
+---> public void Course() {} not a constructor
+--->
+
+===^_^===> why construct exist and what can we do with it?
+---> construct is to initialize newly created object
+---> whenever new keyword is used default constructor is made 
+if there is no any constructor
+
+---> constructor can call another constructor by using 'this()' keyword.
+
+this() if there is no argument in constructor
+this(name,age) if there are arguments in a constructor
+
+===^_^===> Constructor; no return type, same class name, good!
+public Course(String name, int id) {
+System.out.println("Course name: "+name+ "Course ID: "+id);}
+---> object==> Course nameId = new Course("course", 202);
+
+---> if you don't add a contructor explicitly, 
+	 compiler will add an empty constructor that is default constructor
+---> default constructor is the one we don't see.
+
+===^_^===>
+--->
+--->
+
+===^_^===>
+--->
+--->
+
+===^_^===>
+--->
+--->
+
+===^_^===>
+--->
+--->
+
+===^_^===>
+--->
+--->
+
+===^_^===>
+--->
+--->
+
+===^_^===>
+--->
+--->
+
+===^_^===>
+--->
+--->
+
+===^_^===>
+--->
+--->
+
+===^_^===>
+--->
+--->
+
+===^_^===>
+--->
+--->
+
+===^_^===>
+--->
+--->
+
+===^_^===>
+--->
+--->
+
+===^_^===>
+--->
+--->
+
+===^_^===>
+--->
+--->
+
+===^_^===>
+--->
+--->
