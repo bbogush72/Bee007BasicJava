@@ -1,0 +1,126 @@
+Jira
+
+===^_^===>>> What is Jira?
+--->> Simply, Jira is an issue tracker?
+--->> Web Based, open-source, licensed
+--->> owner is atlassian.com;
+
+===^_^===>>> Jira
+--->> lets you prioritize, assign, track, report and audit issues, 
+--->> can be intergrated into other systems
+--->> customize workflow
+
+===^_^===>>> what can be a problem/issue?
+--->> Story of a project
+--->> Task of a story
+--->> Sub-task of a story
+--->> A defect or a bug
+--->> Help-desk ticket
+--->> When creating issue(ticket), the system generates a unique ticket number
+
+===^_^===>>> User stories created by business analyst or product owner.
+--->> All user stories should be in Jira then it is prioritized by PO
+--->> Usery stories decided by Product Owner who prioritize them in product backlog
+
+===^_^===>>> Create a user Story in Jira
+--->> Summary: Add a user story; users should be able to edit calendar
+--->> Description: Add user story: As an autorized user, I want to update fields in the calendar
+--->> 			   Acceptance criteria input
+				   1- Verify that user can add/remove attendees in an event in the calendar
+				   2- Verify that user can update the meeting details
+				   3- Verify that users should be able to update options.
+				   
+===^_^===>>> Create an issue;
+--->> Description: Previous acceptance criteria: verify that user is able to select multiple items in dropdown list.
+--->>            : Add a question or a statement here.			   
+
+
+===^_^===>>> Create a task
+--->> a task is an issue type
+--->>
+
+===^_^===>>> Create a bug(issue type that is)
+--->> Summary: Unable to book a room
+	  Description: Steps to reproduce, expected result, actual result and test environment
+--->>  developer decides the priority of the bug, so don't change the priority part
+--->>> Link issues with related user story, test cases and assign it to a tester
+--->>> Add whichever sprint that is; such as sprint 2
+--->>> After retesting, testers change the bug status to "done";
+
+===^_^===>>> Create Epic; that is large user story larger than 8-10 story points
+--->> Epic may not be completed in one sprint
+--->> change issue type and add descriptions and summary
+
+===^_^===>>> In the Scrum Backlog,
+--->> you can create and update issues;
+--->> drag/ drop the issues to rank them
+--->> you can assign issues to sprint, epic and more.
+--->> to do-- in progress-- done====>>>>workflow=====>>>sprint
+scrum master changes tickets from to-do ===>in progress===>>done
+
+===^_^===>>> --->> Usery stories decided by Product Owner who prioritize them in product backlog
+--->>  developer decides the priority of the bug
+--->> 
+--->>
+
+===^_^===>>> release
+--->> deployment
+--->> do regression testing before deployment
+
+===^_^===>>> reports
+--->> jira provides most type of charts 
+--->> burndown chart, sprint report, velocity report
+--->> main ones; sprint report, release burndown, sometimes pie chart
+--->> who generates these reports? team lead tha is
+
+===^_^===>>> xray report;
+--->> 
+--->>
+
+===^_^===>>>
+--->>
+--->>
+
+===^_^===>>>
+--->>
+--->>
+
+===^_^===>>>
+--->>
+--->>
+
+===^_^===>>>
+--->>
+--->>
+
+===^_^===>>>
+--->>
+--->>
+
+===^_^===>>>
+--->>
+--->>
+
+===^_^===>>>
+--->>
+--->>
+
+===^_^===>>>
+--->>
+--->>
+
+===^_^===>>>
+--->>
+--->>
+
+===^_^===>>>
+--->>
+--->>
+
+===^_^===>>>
+--->>
+--->>
+
+===^_^===>>>
+--->>
+--->>
