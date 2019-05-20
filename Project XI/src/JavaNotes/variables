@@ -1,0 +1,110 @@
+Variables
+
+===^_^===> depending on what's stored inside a container
+
+---> pure value or address of an object
+	----> primitive variable => int i;
+	----> reference variable => String s;
+
+===^_^===> depending on where the variable defined at
+
+---> inside a method
+    ----> called local variable
+    
+---> if it's on method decleration 
+	----> called method parameters
+	
+---> if it's outside any method under the class
+	----> field
+		-----> instance field/variable
+		-----> static field / variable
+		
+===^_^===> Why do we use instance field?
+
+---> 
+--->
+
+===^_^===>
+
+--->
+--->
+
+===^_^===>
+
+--->
+--->
+
+===^_^===>
+
+--->
+--->
+
+===^_^===>
+
+--->
+--->
+
+===^_^===>
+
+--->
+--->
+
+===^_^===>
+
+--->
+--->
+
+===^_^===>
+
+--->
+--->
+
+===^_^===>
+
+--->
+--->
+
+===^_^===>
+
+--->
+--->
+
+===^_^===>
+
+--->
+--->
+
+===^_^===>
+
+--->
+--->
+
+===^_^===>
+
+--->
+--->
+
+===^_^===>
+
+--->
+--->
+
+===^_^===>
+
+--->
+--->
+
+===^_^===>
+
+--->
+--->
+
+===^_^===>
+
+--->
+--->
+
+===^_^===>
+
+--->
+--->

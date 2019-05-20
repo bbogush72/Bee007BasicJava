@@ -1,0 +1,283 @@
+Static keyword and initializer block
+initializer block is mostly need for OCA exam)
+
+Review===>
+
+===^_^===>>> Constructor is a 
+--->>> a block of code that runs when object is made
+--->>> it has same names as class name
+--->>> it has no return type
+--->>> public Person(){}
+--->>> public Person(String name){}
+ 
+===^_^===>>> Default behavior of compiler;
+
+--->>> if we don't have any contructor;
+---->>> compiler will provide one
+---->>> it is no-arg constructor with empty body
+---->>> it is a default constructor
+
+--->>> if we have any contructor;
+---->>> compiler will not provide the default constructor
+
+===^_^===>>> What is constructor mostly used for?
+---> creating object with initial state
+---> initialize all field value along with the creation
+
+===^_^===>>> Some keywords; ---> to create an object
+---> instantiating a class
+---> create instance of a class
+
+
+===^_^===>>> Constructor chaining
+---> Where can we call a constructor?
+it can only be called in another constructor of a same class
+using this(args...)
+---> Calling one constructor in another constructor
+
+---> Rules in chaining
+1- this(args...) has the be the first stamement in constructo body
+2- can be called only once in one constructor
+3- recursive call should be avoided or it will not compile
+* you call me, I call you ==> recurse
+
+* public Student(){
+*this("spartan") bad call!!!
+* sysout 
+}
+* public Student (String name){}
+
+===^_^===>>> Purpose of using constructor chaining
+---> Dry principle -- do not repeat yourself
+---> code reusability and maintainability
+
+
+
+===^_^===>>> Static members of a class
+---> static methods
+---> static variable/field | class variable
+	----> static fields are also called class variables
+	----> because it belongs to the class directly
+	----> compared to instance variable, fields belong to object
+	
+---> For example, House----> instance vriable of num, design
+					   ----> each object will have own copy of num and design
+				, static field.variable of neighborhoodName
+					   ----> each and every house object created shares one copy
+					   ----> of neighborhoodName value
+public class CyberHouse 
+	{
+	int houseNum;
+	String design;
+	//static field/variable
+	// class variable
+	static String neighborhoodName;
+	
+	public CyberHouse(int houseNum, String design)
+	{
+		this.houseNum=houseNum;
+		this.design=design;
+	}}
+===================================================================
+public class HouseBuilder 
+{
+	public static void main(String[] args) {
+		CyberHouse  h1 = new CyberHouse(1, "valedictorian");
+		CyberHouse h2 = new CyberHouse(2, "single family");
+		//accessing static variable
+		//we access static members using static way
+		//className.staticFieldName
+		//cassName.
+		CyberHouse.neighborhoodName= "cybertek corner";		
+		System.out.println(   CyberHouse.neighborhoodName   );
+}}
+===^_^===>>>Example analogy: Teachers are static(for everyone), students are objects of sort!
+---> static belongs to the class, instance belongs to the object.
+---> every object has their own attribute
+
+===^_^===>>> Can we use object to access static variable,
+--->  even though it's recommended to use static way which is className.staticVariable?
+---> the answer is yes but not recommended
+
+===^_^===>>> you may still use an object to access those members
+---> obj.staticField
+---> since there is only one copy
+---> any value change will reflect on all objects.
+
+
+===^_^===>>> in order to access instance members
+---> must create an object
+---> object.instanceField
+---> obj.instanceMethod(arg...)
+
+
+===^_^===>>> Where and how can we access static variable outside a class?
+---> static way ---> className.staticFileName 
+---> 
+
+
+===^_^===>>> Design Pattern
+---> set of common programming practices to solve certain problems
+---> for example, singleton patterns
+
+
+===^_^===>>> singleton patterns
+---> a pattern to make sure single instance of an object is created
+---> during the entire runtime of the application
+
+
+===^_^===>>> static method
+---> can access static members
+--->
+
+
+===^_^===>>> inside an instance method
+--->  we can access any fields --- static | instance
+--->  we can access any methoods --- static | instance
+
+
+===^_^===>>> inside static methods
+---> only static fields and 
+--->
+Instance methods can access instance variables-methods directly
+	2) Instance methods can also access class variables-methods directly
+	3) Class methods cannot access instance variables-methods directly
+	4) Class methods can access class variables-methods directly 
+	thanks to Mr. Ayata for his instance method contribution.
+	thanks to Mr. Akbar for his long lasting contribution.
+	
+===^_^===>>> static initializer block
+---> is used to initiazlize the static field value and runs one time only.
+---> has no name, contain opening and closing braces
+---> ex: static { } ---> static initializer block
+
+
+	public class Course {
+	public static boolean isRamadan; //boolean default value is false; will go to else
+	public static String school;
+	
+	public Course() 
+	{
+		System.out.println("constructor");
+	}
+	
+	//static initializer block
+	//used to initialize the static fields value before
+	
+	static 
+	{
+		isRamadan=true;
+		if(isRamadan) 
+		{
+			System.out.println("use ramadan schedule");
+		}else 
+		{
+			System.out.println("use normal schedule");
+		}
+	}
+	
+	static {
+		school = "Cybertek school";
+		System.out.println("Welcome to our " + school);
+		
+===^_^===>>> placement of static block matters, order is essential
+---> it is because static initializer block is
+	 used to initialize the static fields value before the type's first usage
+---> static will run only one time right before it's usage
+
+
+===^_^===>>> how do you know if and how a class is loaded?
+---> when accessing static members
+---> Anytime you access anything in the class that is when class is loaded
+---> or when you create objects, you will know it's loaded.
+
+===^_^===>>> Static import
+---> is used to import the visible static members of another class
+---> use keyword: import static yourClasname.staticMember; 
+---> example keyword: import static day47.StudentsUtility.displayAllStudents;
+					  import static day47.StudentsUtility.*;
+						
+					  it will treat all the imported static members just like static
+					  members of same class 
+					  
+===^_^===>>>  for example : 
+--->       like import static java.util.sort ; 
+--->       import static yourPackage.yourClassName.yourStaticMemberName ; 
+--->       import static yourPackage.yourClassName.* ;  if you want to import 
+
+// so we can directly access without using classname.
+  
+  CAN WE IMPORT A TYPE/CLASS USING STATIC IMPORT 
+    BIG NOOOOOO@@@!!!!!!! ---> static import is only for static members  
+  
+  side note : make sure to have name collusion with existing methods 
+
+
+===^_^===>>> Instance Block
+---> it's a block of code that run every time an object created right before constructor class
+{
+your code goes here
+}
+---> How is this useful?
+	 if you have a block of code that is shared among all constructor,
+	 you can put it in an instance block 
+	 Counter can be used with instance blocks
+
+===^_^===>>> instance method should be used if you want to read or manipulate 
+			 properties or state of an object
+			 
+===^_^===>>>  static method used in utility methods.
+---> 	
+--->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
