@@ -37,6 +37,8 @@ public class Bike {
 		this.gear=gear;
 		this.speed=speed;
 		
+		
+		
 	}
 
 	public String getBrand() {

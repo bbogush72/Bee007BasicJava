@@ -1,0 +1,266 @@
+Inheritance
+
+= ^_^_^_^ => First, review OOP
+
+---> OOP is object oriented Programming.
+
+= ^_^_^_^ => Principles of OOP
+
+---> Encapsulation(hide data; "private" access modifier)
+---> Inheritance
+
+A	Abstraction  
+P	Polymorphism
+I	Inheritance
+E 	Encapsulation
+
+= ^_^_^_^ => What is inheritance?
+
+---> ability to inherit something
+---> ability to acquire properties and behavior from other classes.
+
+= ^_^_^_^ => An example
+class Animal
+{ 
+	public void eat()
+	{
+	
+	}
+}
+class Birds extends Animal
+	{
+		public void fly()
+		{
+			
+		}
+	}
+	
+
+= ^_^_^_^ => extends keyword
+
+---> this keyword used to inherit a class.
+---> like the example above, Birds class inherited from Animal class 
+---> class Birds extends Animal { }
+	
+
+= ^_^_^_^ => Examples of inheritance
+
+---> Person -> student --> online student
+---> Person -> empoyee --> full time/ part time ---> teacher, accountant, mentor
+
+= ^_^_^_^ => super() keyword
+
+---> a constructor from super class
+---> in java, all classes automatically inherits object class
+---> when we auto generate a constructor, super () is on the first line.
+---> Super() there, calls super class constructor/ parent class constroctor or method
+
+= ^_^_^_^ => a constructor used when an object is created
+
+---> to initialize the code
+--->
+
+
+= ^_^_^_^ => we don't need an object to use static method
+
+---> static is good is not related to objects/ object property
+---> 
+
+Inheritance in Java
+
+there are 4 part of OOP:
+  -encopsulation
+  -inheritance
+  -abstraction
+  -polymorhism
+  
+  In a single class we can put:
+  -instance variable
+  -methods
+  -constructors
+  -static block
+  -init block
+  -static methods
+  -static variables
+  
+  Inheritance:
+       When one class acquired/inherits variables  and methods from another class
+           Parent class
+           child class inherits methods and variables from parents class
+    
+     Is - A relation 
+     
+     Parent class: Drink
+     Child class: Coffee
+     Coffee Is - A drink
+     Tea Is - A drink
+     Smoothie Is-A Drink  
+     
+     
+     Inheritance is process when once class acquires the properties of another class.
+     Inherits methods and Variables from another class
+     
+  Extends keyword: is used to establish inheritance relation between classes                  
+  Parent class: Drink
+  Child class: Coffee
+  
+  public class Drink{
+      String name;
+  }
+  
+  public class Coffee extends Drink{
+          -reusable code
+          -easier to maintain 
+          -good programming design teschnique
+  }
+  =========================================================
+  
+  Drink: parent class    (naming same thing)
+         supper class 
+         base class
+  
+  Coffee: child class    (naming same thing)
+          sub class
+          derived class
+          
+ ========================= 
+  Drink > Coffee > Cappucino
+  
+  Drink > Tea > Green tea > jasmine+GreenTea
+  
+  public class Drink{
+        String name;
+  }
+  
+  public class Coffee extends Drink{
+         int caffeineCount;
+  }
+  
+  =========================
+  Variables and methods in Drink class is available/inherited to Coffee class.
+  
+  If Coffee class adds its own   variable or method, it will not be available for drink class.
+  
+  =============================
+  
+  
+  public class Drink{
+        String name;
+  }
+  
+  public class Coffee extends Drink{
+         int caffeineCount;
+  }
+  
+  public class Tea extends Drink{
+  
+  }
+  
+         Drink
+ 
+    Coffee     Tea
+  
+  
+  Java does not support multiple inheritan:
+  Coffee -> Drink 
+         -> Beverage
+         
+ public class Coffee extends Drink, beverage{
+    
+ }        
+  Above code will not work in java. In Java a class can extend only one class. Class can have only parent/super class
+  ==============================
+  
+  Super/Parent/Base class:
+       Vehicle: makeAndModel
+                year
+                maxSpeed
+                
+ Sub/child Class:
+        Car: 
+  
+ CarMax => main method is here 
+          there is no inheritance relation between carMax and Vehicle or Car.
+          We are just creating objects there.
+          It is just a runner class
+           
+           
+= ^_^_^_^ => inheritance
+
+---> a class can use fields and methods from another class by extending it, so
+---> you don;t actually have to start new code scratch
+---> Constructors are not inherited 
+	but can be accessible usning super(arg..)
+
+==================================================
+= ^_^_^_^ => Is - A relation 
+
+---> student -- is A -- Person
+---> local student -- is A -- Student
+---> car -- is A -- vehicle
+
+
+= ^_^_^_^ => build relationship by using keyword "extends"
+
+---> how many class a class can extend directly? A class can extend only one other
+---> What's inherited from super class? All visible fields/methods from super class
+---> constructor is not inherited.
+
+= ^_^_^_^ => Visibility. access 
+
+---> private --> in same class
+---> default --> same package
+---> protected --> same package + sub classes outside the package
+---> public --> accessible anywhere
+---> 
+
+= ^_^_^_^ => constructor
+
+---> how can we call other constructor of same class? use this(arg...)
+---> how can we call super class constructor? use keyword super(arg...)
+
+
+= ^_^_^_^ =>this() vs super()
+
+---> this is for 'this' class, super is for 'super' class
+---> this() must be first in the line, called only once, avoid recursive call
+---> recursive example; you call me, I call you ===> compiler error
+
+= ^_^_^_^ => super(args...)
+
+---> it has to be the first statement
+---> can be called only once
+---> if no constructor call is made, super () will be inserted to first line
+---> super() and this() cannot be used together
+
+= ^_^_^_^ => when there's a constructor,
+
+---> to call other constructor from different class, 
+---> either this() or super() will be added, explicit that is by showing the keyword
+---> if you don't put this() or super() then implicit, it's added invisible, that is 
+
+= ^_^_^_^ => Method overrriding, with instances
+
+---> we can override inherited methods from super class
+---> same method name, same parameter list, and return type might be a must
+
+= ^_^_^_^ => no overriding in static methods.
+
+--->
+--->
+
+= ^_^_^_^ =>
+
+--->
+--->
+
+= ^_^_^_^ =>
+
+--->
+--->
+
+= ^_^_^_^ =>
+
+--->
+--->
+

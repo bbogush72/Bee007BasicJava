@@ -75,30 +75,63 @@ scrum master changes tickets from to-do ===>in progress===>>done
 
 ===^_^===>>> xray report;
 --->> 
---->>
+--->> if you don't understand something about requirement, first utilize 'comment' area in Jira 
+then you can ask  business analyst about the issue if comments does not help you.
 
-===^_^===>>>
---->>
---->>
+===^_^===>>> Jira is ideal environment because;
+--->> good for Project management
+--->> can track defects/bugs
+--->> Comments part in Jira help tester to figure what's wrong.
+	  That is the collaboration.
+--->> can be customized and it is adaptable
+--->> has a great workflow capabilities
+--->> easy to search within
+--->> can work on Assignments, 
+--->> easy to track changes, can find all the tickets
+--->> can relate issues using the links
+	  links are important link 
+	  option is like a search utility that relates similar issues
+--->> can import issues from other systems or formats
 
-===^_^===>>>
---->>
---->>
 
-===^_^===>>>
---->>
---->>
+===^_^===>>> what is missing in Jira?
+--->> Test artifacts such as tests, executions, plans
+--->>  XRay is very good for automation. 
+	   XRay is an addon for Jira automatically sends info back to Jira
+--->> Visibility of testing results and progress in Agile Boards
+--->> Requirment coverage visibility
+--->> Advanced reporting such as generating docs, and drill-down on data. 
 
-===^_^===>>>
---->>
---->>
+===^_^===>>> Testing with Xray
+--->> Specify
+		---->>> Test
+		---->>> Pre-Condition
+--->> Organize
+		---->>> Test set(is optional not everyone use this)
+				test set is issue type
+		---->>> Test Repository
+--->> Plan
+		---->>> Test Plan (one of the issue type) folder that organize related user stories
+				team lead create test; plan link all user stories in current sprint
+--->> Execute
+		---->>> Test Execution
+		---->>> Sub-Test Execution aka "Test Run"
+		
+--->> one sprint, 5 testers have less than 15 user stories
 
-===^_^===>>>
---->>
---->>
+===^_^===>>> issue types;  
+--->> task, story, bug, epic,
+--->> test execution, precondition and test plan
 
-===^_^===>>>
---->>
+===^_^===>>> Test(issue type) = Test Case
+--->> Task = questions to ask others such as Product owner
+--->> Task = questions to ask Developers/ Business Analysts
+--->> user story by PO or BA
+--->> test cases by testers
+
+===^_^===>>>one user story can have multiple test cases
+--->> link your user story everytime, so it can be organized
+	  with related cases.
 --->>
 
 ===^_^===>>>

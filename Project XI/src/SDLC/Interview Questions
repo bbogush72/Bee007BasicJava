@@ -74,7 +74,8 @@ I'd just follow up and keep tracking the bug and report to make sure it is done 
 
 
 ==================================================================================================================
-6- How will you resolve a conflict between developer and tester where tester wants the defect to be fixed, while developer does not consider it to be a defect?
+6- How will you resolve a conflict between developer and tester where tester wants the defect to be fixed, 
+   while developer does not consider it to be a defect?
 	
 	I think I follow a positive approach as a sign of effective collaboration. 
 	I'd communicate face-to-face and by email to keep myself in the loop of the progress on this defect.
@@ -111,7 +112,7 @@ You cannot add or remove, but you can update
 
 12- ===^_^===>>> What are the issue types created and tracked via Jira?
 --->>  Bugs, epic, tasks, subtasks, test cases and user stories
---->>
+--->>  The most of the common issue types are Story, Bug,Task, Test case , Epic,etc
 
 13- ===^_^===>>> How do you open a bug on Jira?
 --->>
@@ -132,30 +133,46 @@ You cannot add or remove, but you can update
 
 
 17- ===^_^===>>> Can you mention a way with which an issue is shared with other users in Jira?
+--->>An issue can be shared with other users in JIRA by using the share option 
+available on the issue description page. When share option for any particular issue is clicked, 
+it contains the link to the issue to be shared along with “User name or Email” and “Note” that has to be filled.
+--->>
+
+
+18- ===^_^===>>> How is an issue linked in Jira?
 --->>
 --->>
 
 
-12- ===^_^===>>> How is an issue linked in Jira?
+19- ===^_^===>>> 
 --->>
 --->>
 
 
-12- ===^_^===>>> What are the issue types
+20- ===^_^===>>> 
 --->>
 --->>
 
 
-12- ===^_^===>>> What are the issue types
+21- ===^_^===>>> 
+--->>
+--->>
+
+22- ===^_^===>>> 
 --->>
 --->>
 
 
-12- ===^_^===>>> What are the issue types
---->>
---->>
 
-12- ===^_^===>>> What are the issue types
---->>
---->>
+23- ===^_^===>>> How do you test a microwave?
 
+===^_^===>>>
+
+
+===^_^===>>>
+
+
+===^_^===>>>
+
+
+===^_^===>>>
