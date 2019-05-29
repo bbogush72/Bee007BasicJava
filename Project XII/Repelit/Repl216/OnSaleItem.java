@@ -1,10 +1,9 @@
-package repel1;
-
+package Repl216;
 
 /**
  * SubClass of Item
  */
-public class _216_OnSaleItem extends _216_Item {
+public class OnSaleItem extends Item {
     /**
      * private instance variable, used for discount percentage
      */
@@ -22,7 +21,7 @@ public class _216_OnSaleItem extends _216_Item {
      * - it will assign the price after deducting(minus) discount from the price
      * - assigns discount
      */
-    public _216_OnSaleItem(String name,int quantity,int catalogNumber,double price, double discount) {
+    public OnSaleItem(String name,int quantity,int catalogNumber,double price, double discount) {
       
       super(name, quantity, catalogNumber, price);
       this.discount= discount;

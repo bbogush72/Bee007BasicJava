@@ -1,4 +1,4 @@
-package repel1;
+package Repl216;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,11 +6,11 @@ import java.util.List;
 /**
  * represents TJMaxx store class. https://tjmaxx.com/
  */
-public class _216_TJMaxx extends _216_Item{
+public class TJMaxx extends Item{
 
 	
 
-	public _216_TJMaxx(String name, int quantity, int catalogNumber, double price) {
+	public TJMaxx(String name, int quantity, int catalogNumber, double price) {
 		super(name, quantity, catalogNumber, price);
 
 
@@ -20,15 +20,16 @@ public class _216_TJMaxx extends _216_Item{
 	 * Private lists to hold regular Item objects and OnSaleItem objects that
 	 * represent items that sell in TJMaxx
 	 */
-	private List<_216_Item> regularItems;
-	private List<_216_OnSaleItem> _216_OnSaleItems;
+	private  List<Item> regularItems;
+	private  List<OnSaleItem> OnSaleItems;
 
 	/**
 	 * Public no-args constructor - Instantiates regularItems and onSaleItems lists
 	 * as new ArrayList
 	 */
-	int countSale = 0;
+	 int countSale = 0;
 	int countRegular = 0;
+	
 
 //	public TJMaxx() {
 //		// TODO
@@ -38,10 +39,11 @@ public class _216_TJMaxx extends _216_Item{
 	/**
 	 * adds an item object to regularItems list
 	 * 
-	 * @param _216_Item
+	 * @param Item
 	 */
-	public void addRegularItem(_216_Item _216_Item) {
-		regularItems.add(_216_Item);
+	public void addRegularItem(Item Item) {
+		
+		regularItems.add(Item);
 
 	}
 
@@ -50,9 +52,9 @@ public class _216_TJMaxx extends _216_Item{
 	 * 
 	 * @param item
 	 */
-	public void addOnSaleItem(_216_OnSaleItem item) {
+	public void addOnSaleItem(OnSaleItem item) {
 		countSale++;
-		_216_OnSaleItems.add(item);
+		OnSaleItems.add(item);
 	}
 
 	/**
@@ -60,7 +62,7 @@ public class _216_TJMaxx extends _216_Item{
 	 * 
 	 * @return
 	 */
-	public List<_216_Item> getRegularItems() {
+	public List<Item> getRegularItems() {
 		// TODO change from null
 		countRegular++;
 		return regularItems;
@@ -71,9 +73,9 @@ public class _216_TJMaxx extends _216_Item{
 	 * 
 	 * @return
 	 */
-	public List<_216_OnSaleItem> getOnSaleItems() {
+	public List<OnSaleItem> getOnSaleItems() {
 		// TODO change from null
-		return _216_OnSaleItems;
+		return OnSaleItems;
 	}
 
 	/**
@@ -106,11 +108,11 @@ public class _216_TJMaxx extends _216_Item{
 	public List<String> getAllItemNames() {
 
 		List<String> allList = new ArrayList<>();
-		for (_216_Item each : regularItems) {
+		for (Item each : regularItems) {
 
 			allList.add(each.getName());
 		}
-		for (_216_OnSaleItem each : _216_OnSaleItems) {
+		for (OnSaleItem each : OnSaleItems) {
 
 			allList.add(each.getName());
 		}
@@ -127,14 +129,14 @@ public class _216_TJMaxx extends _216_Item{
 	 */
 	public double getItemPrice(int catalogNumber) {
 
-		for (_216_Item each : regularItems) {
+		for (Item each : regularItems) {
 
 			if(each.getCatalogNumber()==(catalogNumber))
 			{
 				return each.getPrice();
 			}
 		}
-		for (_216_OnSaleItem each : _216_OnSaleItems) {
+		for (OnSaleItem each : OnSaleItems) {
 
 			if (each.getCatalogNumber()==(catalogNumber))
 			{
@@ -151,8 +153,8 @@ public class _216_TJMaxx extends _216_Item{
 	 * @param name
 	 * @return
 	 */
-	public _216_OnSaleItem getOnSaleItem(String name) {
-		for (_216_OnSaleItem each : _216_OnSaleItems) 
+	public OnSaleItem getOnSaleItem(String name) {
+		for (OnSaleItem each : OnSaleItems) 
 		{
 
 			if (each.getName().equals(name))
@@ -171,7 +173,7 @@ public class _216_TJMaxx extends _216_Item{
 	 * @param catalogNumber
 	 */
 	public void removeItem(int catalogNumber) {
-		for (_216_Item each : regularItems) {
+		for (Item each : regularItems) {
 
 			if(each.getCatalogNumber()==(catalogNumber))
 			{
@@ -179,11 +181,11 @@ public class _216_TJMaxx extends _216_Item{
 			
 			}
 		}
-		for (_216_OnSaleItem each : _216_OnSaleItems) {
+		for (OnSaleItem each : OnSaleItems) {
 
 			if (each.getCatalogNumber()==(catalogNumber))
 			{
-				_216_OnSaleItems.remove(each);
+				OnSaleItems.remove(each);
 			}
 		}
 		
@@ -200,7 +202,7 @@ public class _216_TJMaxx extends _216_Item{
 	 * @param catalogNumber
 	 */
 	public void buyItem(int catalogNumber) {
-		for (_216_Item each : regularItems) 
+		for (Item each : regularItems) 
 		{
 
 			if(each.getCatalogNumber()==(catalogNumber))
@@ -216,7 +218,7 @@ public class _216_TJMaxx extends _216_Item{
 			
 			}
 		}
-		for (_216_OnSaleItem each : _216_OnSaleItems) {
+		for (OnSaleItem each : OnSaleItems) {
 
 			if (each.getCatalogNumber()==(catalogNumber))
 			{
@@ -230,5 +232,24 @@ public class _216_TJMaxx extends _216_Item{
 			}
 		}
 	}
+	
+	public static void main(String[] args) {
+
+		Item i1= new Item("Tshirt", 32, 101, 15.0);
+		Item i2= new Item("hat", 30, 103, 12.0);
+		Item i3= new Item("pant", 28, 104, 14.0);
+		Item i4= new Item("jacket", 26, 105, 17.0);
+		Item i5= new Item("Scarf", 36, 106, 18.0);
+
+		//addRegularItem(i1);
+		
+		
+	
+		System.out.println(i1.toString());
+		
+		
+	}
+	
+	
 
 }

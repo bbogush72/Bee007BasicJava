@@ -1,7 +1,7 @@
-package repel1;
+package Repl216;
 
 
-public class _216_Item {
+public class Item {
   
    //private instance variables
     private String name;
@@ -18,7 +18,7 @@ public class _216_Item {
      *
      * assigns to values to instance variables
      */
-    public _216_Item(String name,int quantity,int catalogNumber, double price)
+    public Item(String name,int quantity,int catalogNumber, double price)
     {
       this.name=name;
       this.quantity=quantity;
