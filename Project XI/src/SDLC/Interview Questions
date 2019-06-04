@@ -144,13 +144,50 @@ it contains the link to the issue to be shared along with “User name or Email” a
 --->>
 
 
-19- ===^_^===>>> 
---->>
+19- ===^_^===>>> How do you handle a challenge? Give an example.
+--->> I have some experience in dealing with challenges. 
+	  My first reaction is always to stay calm and stop for a second to 
+	  evaluate the situation. Then I identify the variables. Thereafter,
+	  I set a goal to complete the task. Situations like stress, deadline, 
+	  target pressure and other challenges are there to call for do better 
+	  and I try to do better there.
+	  I'm a detail oriented person and it drives me out of focus at times.
+	  Though it's an advantage sometimes, my deep focus is a big problem for me. 
+	  I try to adjust my focus to control what I can. I do not try to reach 
+	  for the things that will be out of reach for me. 
+	  For example, in my previous job, I had to cover for someone else's job, too.
+	  It was something happening frequently that made my schedule tied up. I had
+	  little to no flexibility. I did not complain however I had communicated 
+	  my challenge with the manager. I was told to wait for few more days. 
+	  I waited and I followed up with the request I made. It was somewhat taken
+	  into consideration, and my extra workload was shared to two other colleagues.
+	  Then I was more flexible and I continued my work until later. 
+	  Overall, I don't complain, and I always follow up with my tasks. 
+	  It is always my goal to incorporate what I know and what I learn to 
+	  develop a better experience. I truly believe I can handle upcoming challenges
+	  to continue do better and better always. That's my way to work efficient and
+	  learn and add to my experience.
+
+	  
+	  
 --->>
 
 
-20- ===^_^===>>> 
---->>
+20- ===^_^===>>> Test case vs Test Script
+--->> Test Case: Is a document which consists of system specific prerequisites, 
+but no step-by-step validation. In test case traceability we use a test case document against requirements. 
+This is how we will define the test coverage matrix against requirements. 
+In most of the cases, a test case will cover multiple test scenarios. 
+A test case will carry complexity. 
+Test cases are used for calculation of testing efforts for a particular release with respect to code version.
+
+--->> Test Script(without Automation/programming language context): 
+Every one aware of the fact that a test script is an automation program which is uniquely mapped to a test case.
+But without automation as well we can use this term especially when you are using Rational Quality Manager(RQM) as your test repo. 1.When a test case has multiple versions and the testing team needs to maintain all test case versions against multiple system code versions.In this case, one test case will have multiple test scripts(one for each version). 2.When a test case produces different results in different environments(Operating system or technology.. etc), a test case will be mapped to multiple test scripts which have the expected results change but entire test case remains same.
+
+In either of the above cases, while creating test plan we need to first decide 
+on which version of the test case(in other terms, test script) for execution 
+based on code version or the environment.
 --->>
 
 

@@ -23,5 +23,109 @@
 						
 					
 	*/
-	
-Collapse
+	Inheritance : 
+    
+  IS-A Relationship 
+  a sub class can inherit all visible fields and methods from super class 
+  we use extends keyword to build this relationship 
+  visibility 
+    public     -- everywhere 
+    protected   -- same package + subclasses outside package 
+            YOU MUST HAVE SUB CLASS OBJECT TO ACCESS THESE MEMBERS   
+    default   -- same package 
+    private   -- same class 
+  We dont't inherit anything we dont see 
+  Constructor in inheritance relationship 
+    ITS NOT INHERITED 
+    it can be called in sub class by using super(args...)
+  What's the first statement of any constructor if no constructor call this(arg) super(arg) is already made 
+    ----> super()  a call to super classes no argument constructor
+    
+    super(args)  or this(args) can only be called once and can not show up together
+    It has to be the first statement all the time 
+  Method overridng 
+    we have option to override the super class method with new implementation to provde sub class version of the method 
+    IT's exclusively for INSTANCE METHODS !!! 
+    -- we can just overrdide the method to have same implemention 
+    example. in super class : 
+        public void doSomething(){
+          print("do something ");
+        }
+         in sub class : 
+        @Override
+        public void doSomething(){
+          //print("do something ");
+          super.doSomething(); 
+          print("do something more"); 
+        }
+  super. ---> is used to access super class's field and methods 
+  public class Course{
+    int capacity = 150; 
+    
+    public static void doStatic(){
+      //
+    }
+  }
+  public class OnlineCourse extends Course{
+    int capacity = 300; 
+    
+    public static void doStatic(){
+      //
+    }
+  }
+  THERE IS NO OVERRIDING CONCEPT FOR FIELDS AND STATIC METHODS 
+  THEY CAN ONLY BE HIDDEN NOT OVERRIDDEN 
+  SO @OVERRIDE WILL FAIL WHEN DECLARED ON TOP OF FIELD OR STATIC METHOD 
+  Hiding fields : 
+    if sub class define a visible field that already exits in super class 
+    it hides super class version of the field 
+    super. can only access directly parents members 
+    
+    ONLY THE NAME MATTER WHEN WE HIDE SUPER CLASS'S FILED !
+    you can have different data type , visibility , instance/static 
+    
+    GENERALLY SHOULD BE AVOIDED since it cause confusion 
+  hiding methods : 
+    if sub class define a visible static method that already exits in super class 
+    it hides super class version of the method 
+    
+    
+  Overloading can occur in same class
+  
+  super class have static method -- sub class have same exact static method 
+      -------- method hiding 
+  super class have instance method -- sub class have same exact instance method 
+      -------- overriding 
+  
+  super class have static method -- sub class have same exact instance method 
+      ---ERRORRRRRRRR
+  super class have instance method -- sub class have same exact static method 
+      ---ERRORRRRRRRR
+  
+  BOTTOM LINE IS 
+    CAN NOT OVERRIDE INSATANCE METHOD WITH STATIC METHOD 
+    CAN NOT HIDE STATIC METHOD WITH INSTANCE METHOD 
+    
+    
+    
+    final Keyword makes keyword immutable, thus it cannot be changed
+    
+    it can be used on class   --->> it will make the class not extendable 
+    it can be used for method  --->> it will make method can not be overridden or hidden 
+    it can be used for variable --->> it will make the variable can not be re-assigned 
+    
+    additional note about final field 
+      
+      final instance field -->> 
+          1,can be initialized in same line where it's declared 
+          2,can be initialized in instance block 
+          3,can be initialized in constructor 
+            --->> IT MUST BE INITILIZED AT LEAST AT CONSTRUCTOR if not 1,2 
+                or it will not compile
+      final static field -->> 
+          1,can be initialized in same line where it's declared 
+          2, can be initialized in static block 
+            --->> IT MUST BE INITILIZED AT LEAST AT static block if not 1 
+                or it will not compile
+    
+    

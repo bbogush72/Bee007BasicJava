@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="src" path="Day1To30"/>
-	<classpathentry kind="src" path="day32To60"/>
+	<classpathentry kind="src" path="Day_1_30"/>
+	<classpathentry kind="src" path="Day_32_60"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
