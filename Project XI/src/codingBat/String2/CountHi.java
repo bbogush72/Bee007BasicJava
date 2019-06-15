@@ -1,4 +1,4 @@
-package codingBat;
+package String2;
 
 public class CountHi {
 		

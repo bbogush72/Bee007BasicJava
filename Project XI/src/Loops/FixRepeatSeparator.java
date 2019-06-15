@@ -20,7 +20,7 @@ input: And
 input: 1
 output: This
  */
-public class RepeatSeparator {
+public class FixRepeatSeparator {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     String word = scan.next();

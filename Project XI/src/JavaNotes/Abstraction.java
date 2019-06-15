@@ -48,15 +48,12 @@ public abstract class Abstraction {
 	 * 
 	 * 	 * ==^_^==> what implement / provide body to abstract class?
 	 * --> a sub class
-	 * -->  
-	 * -->
-	 * 
+
 	 * 	 * ==^_^==> does abstract class have to have a method?
 	 * --> it's not required but message is the natural reason 
 	 *  --> why you have abstract
 	 * -->  
-	 * -->
-	 * 
+
 	 * 	 * ==^_^==> What can we have in an abstract a class
 	 * --> static method
 	 * --> instance method
@@ -77,26 +74,114 @@ public abstract class Abstraction {
 	 * --> 			no because it cannot be overridden
 	 * -->        Can we make final method abstract?NO!
 	 * -->		  Can we make private method abstract?NO!
+	 * -->		  Constructor cannot be overridden>Yes.
 	 * 
 	 * * ==^_^==> Abstract must have override!
-	 * --> 
+	 *   // abstract methods can be overloaded 
+  			public abstract void eat(String foodName); 
+  			public abstract void eat(String foodName, int amount); 
+
+	 * * ==^_^==>a non=abstract sub class of abstract class is called concrete class.
+	 * --> concrete sub class has no abstract
 	 * -->  
 	 * -->
 	 * 
+	 * * ==^_^==> constant ==> public static final --> field
+	 * --> an interface could only have abstract and constant till java 8
+	 * -->  after java 8, interface can have;
+	 * -->  
+	 * 
+	 * * ==^_^==> static method not inherited from interface
+	 * --> 
+	 * -->  when you use implements key everything but static inherited
+	 * -->
+	 *  * 
 	 * * ==^_^==>
 	 * --> 
 	 * -->  
 	 * -->
 	 * 
+	 *  * 
+	 * * ==^_^==>
+	 * --> 
+	 * -->  
+	 * -->
+	 *  * 
+	 * * ==^_^==>
+	 * --> 
+	 * -->  
+	 * -->
+	 *  * 
+	 * * ==^_^==>
+	 * --> 
+	 * -->  
+	 * -->
+	 *  * 
+	 * * ==^_^==>
+	 * --> 
+	 * -->  
+	 * -->
+	 *  * 
+	 * * ==^_^==>
+	 * --> 
+	 * -->  
+	 * -->
+	 *  * 
+	 * * ==^_^==>
+	 * --> 
+	 * -->  
+	 * -->
+	 *  * 
+	 * * ==^_^==>
+	 * --> 
+	 * -->  
+	 * -->
+	 *  * 
+	 * * ==^_^==>
+	 * --> 
+	 * -->  
+	 * -->
+	 *  * 
+	 * * ==^_^==>
+	 * --> 
+	 * -->  
+	 * -->
+	 *  * 
+	 * * ==^_^==>
+	 * --> 
+	 * -->  
+	 * -->
+	 *  * 
+	 * * ==^_^==>
+	 * --> 
+	 * -->  
+	 * -->
+	 *  * 
+	 * * ==^_^==>
+	 * --> 
+	 * -->  
+	 * -->
+	 *  * 
+	 * * ==^_^==>
+	 * --> 
+	 * -->  
+	 * -->
+	 *  * 
+	 * * ==^_^==>
+	 * --> 
+	 * -->  
+	 * -->
+	 *  * 
+	 * * ==^_^==>
+	 * --> 
+	 * -->  
+	 * -->
+	 *  * 
 	 * * ==^_^==>
 	 * --> 
 	 * -->  
 	 * -->
 	 * 
-	 * * ==^_^==>
-	 * --> 
-	 * -->  
-	 * -->
 	 * */
 
 

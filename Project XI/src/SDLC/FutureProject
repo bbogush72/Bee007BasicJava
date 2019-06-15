@@ -1,0 +1,133 @@
+Future Project  June 6, 2019 - Thursday
+
+==^_^==> Smoke tests
+--> fully automated
+--> runs daily
+--> email reports, and jira integration
+
+==^_^==> Tell me about your project?
+--> Name of the application: Bookit where students reserve study rooms
+--> Name of the application: BriteErp companies manage the basics of
+	company like materials finance, accounting and many other enterprise features
+--> Name of the application: VyTrack, fleet management
+--> Name of the application: Btrix24 is a CRM, project management, and sales management
+	system combined into one robust business collaboration tool
+
+==^_^==> What role you played?
+--> responsible for one module, or a couple. Write test cases / test scripts
+--> automate test cases
+--> maintain framework
+--> do smoke test, regression test, functional test
+
+
+==^_^==> Was it only automation testing or manual testing, too
+--> percentages of both
+-->
+-->
+
+
+==^_^==> so far;
+--> learned requirement, iser story and acceptance criteria
+--> wrote test cases in Bookit and ERP application
+-->
+
+
+==^_^==> 
+--> creta different framework
+--> do basic demos to mentors
+--> get help gulziba@cybertekschool.com
+--> Ziba-ProjectMentor ask for project help
+
+
+==^_^==> VyTrack is a fleet management application
+--> a fleet is a group of ships vessels or vehicles
+--> that under the control of one person/organization
+--> vytrack.com
+
+
+==^_^==> functions of vyTrack
+--> vehicle delivery
+--> vehicle rental for business use
+--> replacement vehicle
+--> damage management
+--> vehicle maintenance
+--> vehicle insurance and registration
+--> and others; accident $ infringement, fuel management,
+--> and more; vehicle documents, service&repair, GPS tracking
+--> and even more; vehicle & driver allocation, notification and alert system
+
+==^_^==> Fleet module  - redi
+--> Different environments --> developers work
+--> QA environment --> SDET and manual tester
+--> Stating/preProduction environments --> regression test area
+--> Production environment --> real user area
+
+
+==^_^==> SDET environment
+--> QA environment is  like qa.vytrack.com
+--> Different users: Truck drivers, Sales Manager, Store Manager
+--> users such as seller/manager, can add or remove products
+--> store manager check what time user login or logout.
+--> Negative scenario: as a store manager, I should not be able to create new products. 
+--> Positive scenario: as a sales manager, I should be able to create/add new products.
+
+==^_^==> acceptance criteria is a rubric to follow. 
+--> Will be provided by your BA and PO at your work.
+--> test script is coding
+-->
+-->
+
+
+==^_^==> Examples of user story
+--> As a truck driver, I should be able to access Vehicle Odometer page.
+--> As an autorized user, I should access the vehicle odomoter page
+--> As a truck driver, I should be able to access Vehicle under Fleet module.
+
+
+==^_^==> scenario
+--> positive; as a driver, I should login with this user name and this password
+--> negative; as a driver, and with driver username and pw I should not be able to log in to sales managers account
+--> 
+
+
+==^_^==> scenario; grid settings
+--> uncheck certain grid column name and test the grid displayed correctly.
+--> under grid settings. if user select all, the grid should display all column names
+-->
+
+
+==^_^==>
+-->
+-->
+-->
+
+
+==^_^==>
+-->
+-->
+-->
+
+
+==^_^==>
+-->
+-->
+-->
+
+
+==^_^==>
+-->
+-->
+-->
+
+
+==^_^==>
+-->
+-->
+-->
+
+
+==^_^==>
+-->
+-->
+-->
+

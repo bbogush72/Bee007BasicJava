@@ -1,4 +1,4 @@
-package codingBat;
+package String2;
 
 /**
  * write a method to get string and return as below: aaaabbcccdda==> a4b2c3d2a

@@ -1,0 +1,214 @@
+Polymorphism  Sunday June 9, 2019
+
+==^_^==> ability of an object to change into many forms
+--> Animal a1 = new Dog() ;
+--> Animal a2 = new Horse() ;
+--> Animal a3 = new Cat() ;
+
+==^_^==> Animal has a makeNoise() {} method
+--> makeNoise() { // dog noise }
+--> makeNoise() { //horse noise}
+--> makeNoise() { // cat noise }
+
+
+==^_^==> more examples
+--> Triangle  s1 = new Triangle();
+--> Rectangle s2 = new Rectangle();
+--> Shape s1 = new Triange() ;
+--> Shape s2 = new Rectangle() ;
+   ^reference^      ^object type^
+    type            
+
+==^_^==>
+--> List<String> lst = new ArrayList<>();
+-->
+
+==^_^==> Power of Polymorphism
+--> making correct decision at runtime
+--> according to object type to call the overriden method
+--> provides flexibility, easy swapping the implementation, 
+
+==^_^==> Animal [] allAnimals = { newDog(), new Cat(), newHorse() } ;
+--> for( Animal  each : allAnimals) {
+--> each.makeNoise(); }
+
+==^_^==> reference type decides what can be accessible.-->
+--> there is no runtime behavior in overloading, just decided during compile/run time
+
+==^_^==> static polymorphism decided at the compile time.
+-->
+-->
+
+==^_^==>has-a has nothing do to with inheritance , 
+		its just using instance field with class type.
+--> we can use abstract class in polymorphism like Shape
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+
+==^_^==>
+-->
+-->
+

@@ -1,4 +1,4 @@
-package codingBat;
+package String2;
 
 /**
  * Return true if the string "cat" and "dog" appear the same number of times in
