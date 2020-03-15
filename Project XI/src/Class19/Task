@@ -1,2 +1,2 @@
 
-- solve an interview question = swap x and y without using temp: x=x+y ; y=x-y;  x=x=y;
+- solve a question = swap x and y without using temp: x=x+y ; y=x-y;  x=x=y;
